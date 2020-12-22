@@ -1,0 +1,14 @@
+# Created using ManifestCreatorWebsite
+
+Id: Obsidian.Obsidian
+Version: 0.10.1
+Name: Obsidian
+Publisher: Obsidian
+License: Copyright © 2020 Dynalist Inc.
+Description: Obsidian
+Installers:
+- Arch: X86
+  Url: https://github.com/obsidianmd/obsidian-releases/releases/download/v0.10.1/Obsidian.0.10.1.exe
+  Sha256: B0F438CCC6A58BDC6DB983A68AB84B7ED0F5A1B7DF02AB39B134DD89C8AD5A28
+  InstallerType: nullsoft
+ManifestVersion: 0.1.0
