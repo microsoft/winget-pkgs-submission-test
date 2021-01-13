@@ -1,0 +1,13 @@
+# Created using ManifestCreatorWebsite
+
+Id: GoogleLLC.GoogleChrome
+Version: 68.46.141
+Name: Google Chrome
+Publisher: Google LLC
+Installers:
+- Arch: x64
+  Url: https://dl.google.com/edgedl/chrome/install/GoogleChromeStandaloneEnterprise64.msi
+  Sha256: 14C7EC701D67F35DF7A01F3E460B353364EE063396BDAB29044DD13947045CDA
+  Language: en-US
+  InstallerType: msi
+ManifestVersion: 0.1.0
