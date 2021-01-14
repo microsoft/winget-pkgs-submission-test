@@ -1,0 +1,17 @@
+# Created using ManifestCreatorWebsite
+
+Id: IgorPavlov.7z
+Version: 19.00.00.0
+Name: 7-Zip 19.00 (x64 edition)
+Publisher: Igor Pavlov
+License: asdfasdf
+Description: asdfasdfsadfas
+Switches: {}
+Installers:
+- Arch: x64
+  Url: https://www.7-zip.org/a/7z1900-x64.msi
+  Sha256: A7803233EEDB6A4B59B3024CCF9292A6FFFB94507DC998AA67C5B745D197A5DC
+  Language: en-US
+  InstallerType: msi
+  Switches: {}
+ManifestVersion: 0.1.0
