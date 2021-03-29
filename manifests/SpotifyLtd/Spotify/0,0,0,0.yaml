@@ -1,0 +1,14 @@
+# Created using wingetcreate
+
+Id: SpotifyLtd.Spotify
+Version: 0,0,0,0
+Name: Spotify
+Publisher: Spotify Ltd
+License: Copyright (c) 2021, Spotify Ltd
+Description: SpotifyInstaller
+Installers:
+- Arch: x86
+  Url: https://download.scdn.co/SpotifySetup.exe
+  Sha256: 2E730D762EFC1C54909E1416D342CA2D09AC525467EB93871FBE136F2B8E1BB1
+  InstallerType: exe
+ManifestVersion: 0.1.0
