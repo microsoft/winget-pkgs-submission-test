@@ -1,10 +1,15 @@
-﻿# yaml-language-server: $schema=https://aka.ms/winget-manifest.singleton.1.0.0.schema.json
+# Created using Winget-CLI Testing
+
 PackageIdentifier: Microsoft.PowerToys
 PackageVersion: 0.35.0
-PackageName: PowerToys
+PackageLocale: en-US
 Publisher: Microsoft Corporation
+PackageName: PowerToys
+PackageUrl: https://github.com/microsoft/PowerToys
 License: MIT
-MinimumOSVersion: 10.0.17134.0
+LicenseUrl: https://github.com/microsoft/PowerToys/blob/master/LICENSE
+ShortDescription: Microsoft.PowerToys
+Description: Microsoft PowerToys is a set of utilities for power users to tune and streamline their Windows experience for greater productivity. Inspired by the Windows 95 era PowerToys project, this reboot provides power users with ways to squeeze more efficiency out of the Windows 10 shell and customize it for individual workflows.
 Tags:
 - FancyZones
 - Windows key shortcut guide
@@ -16,11 +21,8 @@ Tags:
 - Color Picker
 - PowerToys
 - Power Toys
+MinimumOSVersion: 10.0.17134.0
 InstallerType: exe
-ShortDescription: Microsoft.PowerToys
-Description: Microsoft PowerToys is a set of utilities for power users to tune and streamline their Windows experience for greater productivity. Inspired by the Windows 95 era PowerToys project, this reboot provides power users with ways to squeeze more efficiency out of the Windows 10 shell and customize it for individual workflows.
-PackageUrl: https://github.com/microsoft/PowerToys
-LicenseUrl: https://github.com/microsoft/PowerToys/blob/master/LICENSE
 InstallerSwitches:
   Silent: --silent
   SilentWithProgress: --silent
@@ -28,8 +30,6 @@ Installers:
 - Architecture: x64
   InstallerUrl: https://github.com/microsoft/PowerToys/releases/download/v0.35.0/PowerToysSetup-0.35.0-x64.exe
   InstallerSha256: 8A052767127A6E2058BAAE03B551A807777BB1B726650E2C7E92C3E92C8DF80D
-  ProductCode: "{21EFEBE5-45DF-479D-8ED1-BF733D4315BB}"
-PackageLocale: en-US
+  ProductCode: '{21EFEBE5-45DF-479D-8ED1-BF733D4315BB}'
 ManifestType: singleton
 ManifestVersion: 1.0.0
-
