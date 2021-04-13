@@ -1,0 +1,15 @@
+# Created using wingetcreate
+
+PackageIdentifier: WingetCreate.SingletonEXE
+PackageVersion: 19.0.0
+MinimumOSVersion: 10.0.0.0
+InstallerType: exe
+InstallerSwitches:
+  Silent: --silent
+  SilentWithProgress: --silent
+Installers:
+- Architecture: x64
+  InstallerUrl: https://fakedomain.com/ManifestCreatorTestExeInstaller.exe
+  InstallerSha256: E798BEC6014B40C87CD680F59D4105EFC74015E92F7AF1F2C62B68292D06E303
+ManifestType: installer
+ManifestVersion: 1.0.0
