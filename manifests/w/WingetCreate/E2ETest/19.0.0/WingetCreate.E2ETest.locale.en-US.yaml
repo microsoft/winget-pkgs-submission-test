@@ -1,0 +1,19 @@
+# Created using wingetcreate
+
+PackageIdentifier: WingetCreate.E2ETest
+PackageVersion: 19.0.0
+PackageLocale: en-US
+Publisher: E2ETest
+Author: Microsoft
+PackageName: SingletonEXE
+License: MIT
+LicenseUrl: https://github.com/microsoft/winget-create
+ShortDescription: Testing WingetCreate with an exe installer
+Tags:
+- Windows Package Manager
+- winget create
+- package manager
+- utility
+- tool
+ManifestType: defaultLocale
+ManifestVersion: 1.0.0
