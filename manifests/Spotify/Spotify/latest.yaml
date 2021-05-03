@@ -1,0 +1,14 @@
+# Created using wingetcreate
+
+Id: Spotify.Spotify
+Version: latest
+Name: Spotify
+Publisher: Spotify Ltd
+License: Copyright (c) 2021, Spotify Ltd
+Description: Spotify is a digital music service that gives you access to millions of songs.
+Installers:
+- Arch: x86
+  Url: https://download.scdn.co/SpotifySetup.exe
+  Sha256: 783D1E248E2C5EE6F4632C72B70372AABE11AEEED418B92AA7702974CA2D3D91
+  InstallerType: exe
+ManifestVersion: 0.1.0
