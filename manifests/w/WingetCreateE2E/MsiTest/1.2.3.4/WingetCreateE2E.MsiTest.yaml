@@ -1,4 +1,4 @@
-# Created using wingetcreate
+# Created using wingetcreate 15.0.0.0
 
 PackageIdentifier: WingetCreateE2E.MsiTest
 PackageVersion: 1.2.3.4
