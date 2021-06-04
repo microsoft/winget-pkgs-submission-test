@@ -1,4 +1,5 @@
-# Created using wingetcreate
+# Created using 
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.singleton.1.0.0.schema.json
 
 PackageIdentifier: WingetCreateE2E.ExeTest
 PackageVersion: 1.2.3.4
@@ -27,3 +28,4 @@ Installers:
   InstallerSha256: A7803233EEDB6A4B59B3024CCF9292A6FFFB94507DC998AA67C5B745D197A5DC
 ManifestType: singleton
 ManifestVersion: 1.0.0
+
