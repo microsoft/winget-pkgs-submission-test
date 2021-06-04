@@ -1,4 +1,4 @@
-# Created using wingetcreate 15.0.0.0
+# Created using wingetcreate
 
 PackageIdentifier: WingetCreateE2E.ExeTest
 PackageVersion: 1.2.3.4
