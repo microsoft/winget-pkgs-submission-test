@@ -23,10 +23,8 @@ InstallerType: msix
 Installers:
 - Architecture: x64
   InstallerType: msix
-  Scope: user
   InstallerUrl: https://fakedomain.com/WingetCreateTestMsixInstaller.msixbundle
   InstallerSha256: A7803233EEDB6A4B59B3024CCF9292A6FFFB94507DC998AA67C5B745D197A5DC
-  SignatureSha256: A7803233EEDB6A4B59B3024CCF9292A6FFFB94507DC998AA67C5B745D197A5DC
 ManifestType: singleton
 ManifestVersion: 1.0.0
 
