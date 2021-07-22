@@ -1,0 +1,15 @@
+# Created using wingetcreate 0.3.0.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.0.0.schema.json
+
+PackageIdentifier: Node.jsFoundation.Node.js
+PackageVersion: 10.15.3
+Installers:
+- InstallerLocale: en-US
+  Architecture: x64
+  InstallerType: msi
+  InstallerUrl: https://nodejs.org/dist/v10.15.3/node-v10.15.3-x64.msi
+  InstallerSha256: 46B3D03C96DE0B9E7D3A204C67772759283221F5E58AC225DF813076A65E2738
+  ProductCode: '{5EEFB772-5056-46E9-8209-B4BAC3171C52}'
+ManifestType: installer
+ManifestVersion: 1.0.0
+
