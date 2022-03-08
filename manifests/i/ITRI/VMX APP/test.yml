@@ -1,0 +1,19 @@
+PackageIdentifier: ITRI.QuickSECS2.3.05A
+PackageVersion: 2.3.05
+PackageName: QuickSECS 2.3.05A
+Publisher: ITRI
+License: Copyright (C) 2005 Macrovision Corporation
+LicenseUrl: https://secs.itri.org.tw/about-secs-gem-downloads.html
+Moniker: itriquicksecs
+Tags:
+- itri quicksecs
+ShortDescription: QuickSECS is a communication driver software that supports SEMI SECS (E4, E5, E37)
+PackageUrl: https://secs.itri.org.tw/index.html
+Installers:
+- Architecture: x86
+  InstallerUrl: https://secs.itri.org.tw/download/QuickSECS%20Driver/QS2305A2_Retail.exe
+  InstallerSha256: 081B5FC1A3101A22A8570A383CC1C238D835D23B5F55324DB60A5FCF4CE642F3
+  InstallerType: exe
+PackageLocale: en-US
+ManifestType: installer
+ManifestVersion: 1.1.0
