@@ -10,4 +10,3 @@ License: MIT
 ShortDescription: Testing WingetCreate with a multifile msix manifest
 ManifestType: defaultLocale
 ManifestVersion: 1.0.0
-
