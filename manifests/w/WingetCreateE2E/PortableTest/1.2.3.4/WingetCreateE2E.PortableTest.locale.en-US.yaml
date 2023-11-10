@@ -1,0 +1,21 @@
+# Created using 
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.6.0.schema.json
+
+PackageIdentifier: WingetCreateE2E.PortableTest
+PackageVersion: 1.2.3.4
+PackageLocale: en-US
+Publisher: WingetCreateE2E
+Author: Microsoft
+PackageName: PortableTest
+License: MIT
+LicenseUrl: https://github.com/microsoft/winget-create
+ShortDescription: Testing WingetCreate with a portable exe
+Tags:
+- Windows Package Manager
+- winget create
+- package manager
+- utility
+- tool
+- test
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0
