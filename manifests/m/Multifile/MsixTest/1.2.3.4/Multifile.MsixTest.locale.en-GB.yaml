@@ -1,5 +1,5 @@
 # Created using 
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.0.0.schema.json
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.6.0.schema.json
 
 PackageIdentifier: Multifile.MsixTest
 PackageVersion: 1.2.3.4
@@ -9,4 +9,4 @@ PackageName: MsixTest
 License: MIT
 ShortDescription: Testing WingetCreate with a multifile msix manifest
 ManifestType: locale
-ManifestVersion: 1.0.0
+ManifestVersion: 1.6.0
