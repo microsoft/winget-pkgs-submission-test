@@ -1,0 +1,17 @@
+# Created using 
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.0.0.schema.json
+
+PackageIdentifier: Multifile.Yaml.MsixTest
+PackageVersion: 1.2.3.4
+Installers:
+- Architecture: x64
+  InstallerType: msix
+  InstallerUrl: https://fakedomain.com/WingetCreateTestMsixInstaller.msixbundle
+  InstallerSha256: A7803233EEDB6A4B59B3024CCF9292A6FFFB94507DC998AA67C5B745D197A5DC
+- Architecture: x86
+  InstallerType: msix
+  Scope: user
+  InstallerUrl: https://fakedomain.com/WingetCreateTestMsixInstaller.msixbundle
+  InstallerSha256: A7803233EEDB6A4B59B3024CCF9292A6FFFB94507DC998AA67C5B745D197A5DC
+ManifestType: installer
+ManifestVersion: 1.0.0

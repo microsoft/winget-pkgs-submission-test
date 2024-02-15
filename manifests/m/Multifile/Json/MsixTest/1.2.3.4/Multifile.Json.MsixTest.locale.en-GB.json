@@ -1,0 +1,12 @@
+{
+  "$schema": "https://aka.ms/winget-manifest.locale.1.0.0.schema.json",
+  "PackageIdentifier": "Multifile.Json.MsixTest",
+  "PackageVersion": "1.2.3.4",
+  "PackageLocale": "en-GB",
+  "Publisher": "Multifile",
+  "PackageName": "MsixTest",
+  "License": "MIT",
+  "ShortDescription": "Testing WingetCreate with a multifile msix manifest",
+  "ManifestType": "locale",
+  "ManifestVersion": "1.0.0"
+}
