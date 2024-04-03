@@ -1,22 +1,29 @@
 {
-  "$schema": "https://aka.ms/winget-manifest.installer.1.0.0.schema.json",
+  "$schema": "https://aka.ms/winget-manifest.installer.1.6.0.schema.json",
   "PackageIdentifier": "Multifile.Json.MsixTest",
   "PackageVersion": "1.2.3.4",
+  "Platform": [
+    "Windows.Universal",
+    "Windows.Desktop"
+  ],
+  "MinimumOSVersion": "10.0.17763.0",
+  "InstallerType": "msix",
+  "PackageFamilyName": "66ebb28b-61e4-429f-b75d-301f26698781_8wekyb3d8bbwe",
   "Installers": [
     {
       "Architecture": "x64",
-      "InstallerType": "msix",
       "InstallerUrl": "https://fakedomain.com/WingetCreateTestMsixInstaller.msixbundle",
-      "InstallerSha256": "A7803233EEDB6A4B59B3024CCF9292A6FFFB94507DC998AA67C5B745D197A5DC"
+      "InstallerSha256": "9288B7626DB1B3DCCC5869F04538EE54322B4C479B3B0CFF5C8F6FC3170BF381",
+      "SignatureSha256": "D5210DB9342BB5FCDF09586FE438DB44081D98FAE54B7F79350A0E5CCD0083A8"
     },
     {
       "Architecture": "x86",
-      "InstallerType": "msix",
       "Scope": "user",
       "InstallerUrl": "https://fakedomain.com/WingetCreateTestMsixInstaller.msixbundle",
-      "InstallerSha256": "A7803233EEDB6A4B59B3024CCF9292A6FFFB94507DC998AA67C5B745D197A5DC"
+      "InstallerSha256": "9288B7626DB1B3DCCC5869F04538EE54322B4C479B3B0CFF5C8F6FC3170BF381",
+      "SignatureSha256": "D5210DB9342BB5FCDF09586FE438DB44081D98FAE54B7F79350A0E5CCD0083A8"
     }
   ],
   "ManifestType": "installer",
-  "ManifestVersion": "1.0.0"
+  "ManifestVersion": "1.6.0"
 }
