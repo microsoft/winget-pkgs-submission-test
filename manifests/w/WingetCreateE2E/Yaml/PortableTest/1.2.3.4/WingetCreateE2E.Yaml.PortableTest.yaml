@@ -1,29 +1,8 @@
 # Created using 
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.singleton.1.2.0.schema.json
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.version.1.6.0.schema.json
 
 PackageIdentifier: WingetCreateE2E.Yaml.PortableTest
 PackageVersion: 1.2.3.4
-PackageLocale: en-US
-Publisher: WingetCreateE2E
-Author: Microsoft
-PackageName: PortableTest
-License: MIT
-LicenseUrl: https://github.com/microsoft/winget-create
-ShortDescription: Testing WingetCreate with a portable exe
-Tags:
-- Windows Package Manager
-- winget create
-- package manager
-- utility
-- tool
-- test
-MinimumOSVersion: 10.0.0.0
-InstallerType: portable
-Installers:
-- Architecture: x64
-  InstallerUrl: https://fakedomain.com/WingetCreateTestExeInstaller.exe
-  InstallerSha256: A7803233EEDB6A4B59B3024CCF9292A6FFFB94507DC998AA67C5B745D197A5DC
-  Commands:
-  - portableCommand
-ManifestType: singleton
-ManifestVersion: 1.2.0
+DefaultLocale: en-US
+ManifestType: version
+ManifestVersion: 1.6.0
