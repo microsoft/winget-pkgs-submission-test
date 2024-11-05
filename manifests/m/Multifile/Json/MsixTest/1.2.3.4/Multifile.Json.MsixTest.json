@@ -1,8 +1,8 @@
 {
-  "$schema": "https://aka.ms/winget-manifest.version.1.0.0.schema.json",
   "PackageIdentifier": "Multifile.Json.MsixTest",
   "PackageVersion": "1.2.3.4",
   "DefaultLocale": "en-US",
   "ManifestType": "version",
-  "ManifestVersion": "1.0.0"
+  "ManifestVersion": "1.6.0",
+  "$schema": "https://aka.ms/winget-manifest.version.1.6.0.schema.json"
 }
