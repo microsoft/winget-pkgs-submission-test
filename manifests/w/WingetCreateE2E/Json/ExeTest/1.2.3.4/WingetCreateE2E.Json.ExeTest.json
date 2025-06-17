@@ -1,35 +1,8 @@
 {
-  "$schema": "https://aka.ms/winget-manifest.singleton.1.0.0.schema.json",
   "PackageIdentifier": "WingetCreateE2E.Json.ExeTest",
   "PackageVersion": "1.2.3.4",
-  "PackageLocale": "en-US",
-  "Publisher": "WingetCreateE2E",
-  "Author": "Microsoft",
-  "PackageName": "ExeTest",
-  "License": "MIT",
-  "LicenseUrl": "https://github.com/microsoft/winget-create",
-  "ShortDescription": "Testing WingetCreate with an exe installer",
-  "Tags": [
-    "Windows Package Manager",
-    "winget create",
-    "package manager",
-    "utility",
-    "tool",
-    "test"
-  ],
-  "MinimumOSVersion": "10.0.0.0",
-  "InstallerType": "exe",
-  "InstallerSwitches": {
-    "Silent": "--silent",
-    "SilentWithProgress": "--silent"
-  },
-  "Installers": [
-    {
-      "Architecture": "x64",
-      "InstallerUrl": "https://fakedomain.com/WingetCreateTestExeInstaller.exe",
-      "InstallerSha256": "A7803233EEDB6A4B59B3024CCF9292A6FFFB94507DC998AA67C5B745D197A5DC"
-    }
-  ],
-  "ManifestType": "singleton",
-  "ManifestVersion": "1.0.0"
+  "DefaultLocale": "en-US",
+  "ManifestType": "version",
+  "ManifestVersion": "1.9.0",
+  "$schema": "https://aka.ms/winget-manifest.version.1.9.0.schema.json"
 }
